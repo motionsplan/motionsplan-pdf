@@ -1,0 +1,32 @@
+{
+  "name": "motionsplan/motionsplan-pdf",
+  "description": "Drupal 8 module for creating PDFs.",
+  "type": "drupal-module",
+  "homepage": "https://github.com/motionsplan/motionsplan-pdf",
+  "authors": [
+    {
+      "name": "Lars Olesen",
+      "homepage": "http://larsolesen.dk",
+      "role": "Maintainer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/motionsplan/motionsplan-pdf-library.git"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/motionsplan/motionsplan-pdf"
+  },
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "motionsplan/motionsplan-pdf-library": "*"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "2.*",
+    "drupal/coder": "dev-8.x-2.x"
+  }
+}
