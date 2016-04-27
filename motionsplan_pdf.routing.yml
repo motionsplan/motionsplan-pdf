@@ -1,0 +1,7 @@
+motionsplan_pdf.simple_pdf:
+  path: '/pdf/{node}'
+  defaults:
+    _controller: '\Drupal\motionsplan_pdf\Controller\PdfController::simplePdf'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
