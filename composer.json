@@ -1,5 +1,5 @@
 {
-  "name": "motionsplan/motionsplan-pdf",
+  "name": "motionsplan/motionsplan_pdf",
   "description": "Drupal 8 module for creating PDFs.",
   "type": "drupal-module",
   "homepage": "https://github.com/motionsplan/motionsplan-pdf",
