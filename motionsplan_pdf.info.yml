@@ -1,0 +1,9 @@
+name: Motionsplan PDF
+description: Creates PDF of content.
+package: Motionsplan
+
+type: module
+core: 8.x
+
+dependencies:
+  - motionsplan_exercise

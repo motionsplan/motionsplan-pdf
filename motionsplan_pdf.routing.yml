@@ -1,0 +1,15 @@
+motionsplan_pdf.exercise_simple_pdf:
+  path: '/pdf/exercise/{node}'
+  defaults:
+    _controller: '\Drupal\motionsplan_pdf\Controller\PdfController::exerciseSimplePdf'
+    _title: 'Exercise card'
+  requirements:
+    _permission: 'access content'
+
+motionsplan_pdf.program_pdf:
+  path: '/pdf/workout/{node}'
+  defaults:
+    _controller: '\Drupal\motionsplan_pdf\Controller\PdfController::workoutPdf'
+    _title: 'High Performance Handbook Template'
+  requirements:
+    _permission: 'access content'

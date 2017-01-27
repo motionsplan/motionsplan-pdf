@@ -1,0 +1,5 @@
+motionsplan_pdf.exercise_simple_pdf:
+  title: Pdf
+  route_name: motionsplan_pdf.simple_pdf
+  base_route: node.view
+  weight: 2
